@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/register.css" />
+    <title>iuDelivery - Cadastro</title>
+</head>
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+          <form action="login.html" class="sign-up-form">
+            <h2 class="title">Cadastre-se</h2>
+            
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Nome" required/>
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" required/>
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Senha" required/>
+            </div>
+
+            <button class="btn">Criar conta</button>
+              <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+
+              <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+          </form>
+          
+          <form action="indexlc.html"  id="login" class="sign-in-form">
+          <h2 class="title">Fazer login</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" id="senha" placeholder="Nome" required/>
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="password" id="usuario" placeholder="Senha" required/>
+          </div>
+
+          <button class="btn" id="login">Entrar</button>
+            <p class="social-text">Or Sign in with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            
+            <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+            
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Não tem uma conta?</h3>
+            <p>Clique no botão abaixo para criar uma conta</p>
+            <button class="btn transparent"  id="sign-login-btn">Criar conta</button>
+          </div>
+          <img src="img/hamb.png" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Já tem uma conta?</h3>
+            <p>Clique no botão abaixo para fazer login</p>
+            <button class="btn transparent" id="create-account-btn">Fazer login</button>
+          </div>
+          <img src="img/hamb.png" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/resgister.js"></script>
+  </body>
+</html>
